@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: Charles Brown-Roberts
 # this appears on the top navigation bar next to the home button
 
 site_title: Jekyll theme for documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: Charles Brown-Roberts
 # this appears in the footer
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -40,7 +40,7 @@ feedback_subject_line: Jekyll documentation theme
 feedback_email: tomjoht@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-# feedback_disable: true
+feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"
@@ -102,9 +102,13 @@ defaults:
 
 sidebars:
 - home_sidebar
+- devops_sidebar
+- azure_sidebar
+- docker_sidebar
+- developer_sidebar
+- sysadmin_sidebar
+- presentations_sidebar
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
 - other
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
