@@ -1,3 +1,14 @@
+
+#palette_placeholder {
+    color: #081B33; /* Maastricht Blue */
+    color: #152642; /*  Yankees Blue */
+    color: #2F4562; /*  Police Blue */
+    color: #506680; /*  Dark Electric Blue */
+    color: #767D92; /*  Slate Gray */
+    color: #353C51; /*  Charcoal */
+}
+
+
 .summary {
     color: #808080;
     border-left: 5px solid #ED1951;
