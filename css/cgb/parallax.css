@@ -45,8 +45,9 @@ body, html {
 
 
 .bgimg-7 {
-    background-image: url("/images/golden-gate.jpg");
+    background-image: url("/images/miami-skyline.jpg");
     min-height: 500px;
+    opacity: 0.85;
 }
 
 
@@ -69,6 +70,22 @@ body, html {
     opacity: 0.95;
 }
 
+
+
+.paralaxText blockquote {
+    color: #fff;
+    font-size: 33px;
+    line-height: 33px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.1em;
+}
 
 
 /* Turn off parallax scrolling for tablets and phones */
