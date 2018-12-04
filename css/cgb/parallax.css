@@ -42,7 +42,8 @@ body, html {
 }
 
 .profile-image {
-    max-width:150px;
+    max-width:175px;
+    opacity: 0.95;
 }
 
 
