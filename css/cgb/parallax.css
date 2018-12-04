@@ -37,10 +37,12 @@ body, html {
 }
 
 .caption span.border {
-
-
     font-size: 25px;
     letter-spacing: 10px;
+}
+
+.profile-image {
+    max-width:150px;
 }
 
 
