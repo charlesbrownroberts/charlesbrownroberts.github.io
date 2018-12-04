@@ -3,7 +3,7 @@ body, html {
     margin: 0;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -34,9 +34,22 @@ body, html {
 }
 
 .bgimg-5 {
+    background-image: url("/images/uml.jpg");
+    min-height: 500px;
+}
+
+.bgimg-6 {
     background-image: url("/images/golden-gate.jpg");
     min-height: 500px;
 }
+
+
+.bgimg-7 {
+    background-image: url("/images/golden-gate.jpg");
+    min-height: 500px;
+}
+
+
 .caption {
     position: absolute;
     left: 0;
