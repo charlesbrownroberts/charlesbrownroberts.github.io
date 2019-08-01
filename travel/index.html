@@ -1,0 +1,21 @@
+---
+title: News
+keywords: news, blog, updates, release notes, announcements
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js" integrity="sha256-1snhdKmSJxiSsTwpSFZxXxAFOl8uwOkZGv2JEwlRCvg=" crossorigin="anonymous"></script>
+<div class="home">
+
+
+    <div id="gallery" style="display:none;">
+        {% for image in site.static_files %}
+        {% if image.path contains 'images/gallery/Bologna-7-15-17/' %}
+        <img alt="Image 1 Title" src="{{ site.baseurl }}{{ image.path }}"
+             data-image="{{ site.baseurl }}{{ image.path }}"
+             data-description="Image 1 Description">
+
+        {% endif %}
+        {% endfor %}
+    </div>
