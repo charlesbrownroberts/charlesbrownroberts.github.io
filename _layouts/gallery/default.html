@@ -5,11 +5,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-{% include travel/gallery/gallery_head.html %}
-<body class="is-preload-0 is-preload-1 is-preload-2">
+{% include travel/blog/blog_header.html %}
+{% include travel/blog/blog_header_nav.html %}
+
+<link rel="stylesheet" href="/assets/gallery/css/main.css" />
+<noscript><link rel="stylesheet" href="/assets/gallery/css/noscript.css" /></noscript>
+<body class="is-preload-0 is-preload-1 is-preload-2" >
 
 <!-- Main -->
-<div id="main">
+<div id="main" style="margin-top: 55px;">
     {{ content }}
 </div>
 
