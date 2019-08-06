@@ -4,17 +4,13 @@ layout: gallery/default
 
 <!-- Thumbnail -->
 <section id="thumbnails">
-
     {% for image in site.static_files %}
     {% if image.path contains 'images/gallery/bologna/fulls/' %}
-
 
     <article>
         <a class="thumbnail" href="{{ site.baseurl }}{{ image.path }}" data-position="left center"><img src="{{ site.baseurl }}{{ image.path }}" alt="" /></a>
     </article>
-
     {% endif %}
     {% endfor %}
-
 
 </section>
