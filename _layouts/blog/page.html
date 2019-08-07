@@ -5,33 +5,16 @@ layout: blog/default
 
 <!-- Page Content -->
 <div class="container">
-
-    <!-- Hero Image -->
     <div class="row">
-        <img src="{{ page.hero_img_url }}" alt="" width="100%"/>
-        <h1 class="display-4">{{ page.title }}</h1>
-        <p class="lead">{{ page.lead }}</p>
-    </div>
-
-
-    <div class="row">
-        <!-- Page Title -->
-        <div class="col-lg-12">
-            {{ page.title }}
+        <div class="col-lg-8">
+            {{ content }}
         </div>
-    </div>
 
-    <div class="row">
         <!-- Sidebar Column -->
         <div class="col-lg-4">
             {% include travel/blog/blog_sidebar.html %}
         </div>
-
-        <div class="col-lg-8">
-            {{ content }}
-        </div>
     </div>
-
 </div>
 
 
