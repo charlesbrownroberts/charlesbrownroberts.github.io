@@ -11,7 +11,7 @@
         #map { position:absolute; top:0; bottom:0; width:100%; }
 
         .marker {
-            background-image: url('/maps/icons/marker-15.svg');
+            background-image: url('https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1596-hiking-solo_4x.png&highlight=ff000000,880E4F,ff000000&scale=2.0');
             background-size: cover;
             width: 50px;
             height: 50px;
@@ -51,6 +51,9 @@
 <body>
 
 <div id='map'></div>
+<div id='distance' class='distance-container'></div>
+
+<script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiY2FsaWZvcm5pYXZvbCIsImEiOiJjanoxOXBzamcwY3RiM29zMHZyeXZ2MmxyIn0.HAO3xS15kovloVAwCEGMiw';
     var map = new mapboxgl.Map({
@@ -832,6 +835,12 @@
     // });
 
 
+    // // GeoJSON object to hold our measurement features
+    // var geojson = {
+    //     "type": "FeatureCollection",
+    //     "features": []
+    // };
+
     map.on('load', function() {
         map.addSource('geojson', {
             "type": "geojson",
@@ -923,19 +932,19 @@
 
 
     // add markers to map
-    // geojson.features.forEach(function(marker) {
-    //
-    //     // create a HTML element for each feature
-    //     var el = document.createElement('div');
-    //     el.className = 'marker';
-    //
-    //     // make a marker for each feature and add to the map
-    //     new mapboxgl.Marker(el)
-    //         .setLngLat(marker.geometry.coordinates)
-    //         .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    //             .setHTML('<h3>' + marker.properties.name + '</h3>' + '<p>' + marker.properties.description + '</p>'))
-    //         .addTo(map);
-    // });
+    geojson.features.forEach(function(marker) {
+
+        // create a HTML element for each feature
+        var el = document.createElement('div');
+        el.className = 'marker';
+
+        // make a marker for each feature and add to the map
+        new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML('<h3>' + marker.properties.name + '</h3>' + '<p>' + marker.properties.description + '</p>'))
+            .addTo(map);
+    });
 
 
 </script>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-1535-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1535-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1535-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1577-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1577-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1596-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1596-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1596-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1596-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1596-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1685-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1685-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1685-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1685-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1685-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Arc de Triomphe</name>
+      <styleUrl>#icon-1535-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.29502750000006,48.8737917,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Louvre Pyramid</name>
+      <styleUrl>#icon-1535-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.33585830000004,48.8610135,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 Rue Bixio</name>
+      <styleUrl>#icon-1603-A52714-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.31019930000002,48.8524563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rue Galande</name>
+      <description><![CDATA[Cute Street<br>Closest metro - Saint-Michel Notre Dame or Cluny-La Sorbonn]]></description>
+      <styleUrl>#icon-1596-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          2.34729240000001,48.8515045,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Dominique</name>
+      <description><![CDATA[Eiffel tower views and pastries and cheese shops<br>Closest metro: La Tour-Maubourg  - one block ]]></description>
+      <styleUrl>#icon-1596-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          2.31149970000001,48.8599542,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[La Maison d'Isabelle best croissants]]></name>
+      <description><![CDATA[La Maison d'Isabelle<br>47ter Boulevard Saint-Germain<br>Best crossiants in paris]]></description>
+      <styleUrl>#icon-1577-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          2.3482649,48.8498275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maison Pichard 2nd best croissants</name>
+      <description><![CDATA[Maison Pichard<br>88 Rue Cambronne<br>2nd best croissants]]></description>
+      <styleUrl>#icon-1577-880E4F</styleUrl>
+      <Point>
+        <coordinates>
+          2.30274880000002,48.842258,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Des Gateaux et du Pain 3rd croissants 63 Boulevard Pasteur</name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.31466499999999,48.8412273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sébastien Gaudard
+ - 5th croissants 1 Rue des Pyramides</name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.33194730000002,48.8640803,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Grenier à Pain - best baguette 152 Rue Oberkampf</name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3816319,48.8665782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poilâne - 2nd bakery - 8 Rue du Cherche-Midi</name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.32898929999999,48.8512921,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Pain d'Epis - 3rd bakery ]]></name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          0.122289000000023,49.495182,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Le Moulin de la Vierge - 4th bakery</name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.30858060000003,48.8598589,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Chocolate Maestro #3: Michel Chaudun - 149 Rue de l'Université]]></name>
+      <styleUrl>#icon-1577-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.30584690000001,48.8610608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rungis Market Rue de la Tour</name>
+      <styleUrl>#icon-1685-880E4F-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.36027779999995,48.7622322,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
