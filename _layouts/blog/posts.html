@@ -10,20 +10,23 @@ layout: blog/page
     <header>
         <div class="title">
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p>{{ page.lead }}</p>
+            <p>{{ post.lead }}</p>
         </div>
         <div class="meta">
-            <time class="published" datetime="2015-10-25">October 25, 2015</time>
-
+            <time class="published" datetime="{{ post.datetime }}">{{ post.post_date }}</time>
         </div>
     </header>
-    <img class="img-fluid" src="{{ post.img }}" alt="" />
+
     <div>
+        <a href="{{ post.url }}">
+            <img class="img-fluid" src="{{ post.img }}" alt="" />
+        </a>
+    </div>
+
     <footer>
         <ul class="actions">
             <li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
         </ul>
-
     </footer>
 </article>
 {% endif %}
