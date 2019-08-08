@@ -1,0 +1,23 @@
+- name: Berlin Maison Lallement
+  type: cafe
+  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
+  address: 37 Avenue Duquesne, 75007 Paris, France
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
+  description: 2 minutes from AirBnb
+  website: none
+
+- name: Maison Lallement 2
+  type: cafe
+  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
+  address: 37 Avenue Duquesne, 75007 Paris, France
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
+  description: 2 minutes from AirBnb
+  website: none
+
+- name: Maison Lallement 3
+  type: cafe
+  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
+  address: 37 Avenue Duquesne, 75007 Paris, France
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
+  description: 2 minutes from AirBnb
+  website: none
