@@ -14,7 +14,20 @@
 
 <!-- Main -->
 <div id="main" style="margin-top: 55px;">
-    {{ content }}
+
+    <section id="thumbnails">
+        {% for image in site.static_files %}
+        {% if image.path contains page.gallery_dir %}
+
+        <article>
+            <a class="thumbnail" href="{{ site.baseurl }}{{ image.path }}" data-position="left center"><img src="{{ site.baseurl }}{{ image.path }}" alt="" /></a>
+        </article>
+        {% endif %}
+        {% endfor %}
+
+    </section>
+
+
 </div>
 
 {% include travel/gallery/gallery_footer_scripts.html %}

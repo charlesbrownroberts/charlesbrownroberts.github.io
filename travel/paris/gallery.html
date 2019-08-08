@@ -1,16 +1,7 @@
 ---
 layout: gallery/default
+gallery_dir: images/gallery/paris/fulls/
 ---
 
-<section id="thumbnails">
-    {% for image in site.static_files %}
-    {% if image.path contains 'images/gallery/paris/fulls/' %}
 
-    <article>
-        <a class="thumbnail" href="{{ site.baseurl }}{{ image.path }}" data-position="left center"><img src="{{ site.baseurl }}{{ image.path }}" alt="" /></a>
-    </article>
-    {% endif %}
-    {% endfor %}
-
-</section>
 
