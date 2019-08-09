@@ -15,22 +15,28 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-	<!-- Header Nav -->
-	{% include travel/blog/blog_header_nav.html %}
+    <!-- Header Nav -->
+    {% include travel/blog/blog_header_nav.html %}
 
-	<div class="container">
-		<div class="row">
-			<h1>{{ page.title }}</h1>
-		</div>
+    <div class="container">
+        <div class="row">
+            <article>
+                <header>
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <main>
+                    {{ content }}
+                </main>
 
-		<div class="row">
-			<article>
-				{{ content }}
-			</article>
-		</div>
-	</div>
-
-
+                <footer>
+                    <div class="card-body">
+                        <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%"
+                             data-numposts="10"></div>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </div>
 
 
 </div>
