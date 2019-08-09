@@ -22,26 +22,43 @@
   description: 2 minutes from AirBnb
   website: https://www.louvre.fr/
 
-- name: Maison Lallement 4
-  type: cafe
-  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
-  address: 37 Avenue Duquesne, 75007
-  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
-  description: 2 minutes from AirBnb
+- name: Rue Galande
+  type: street
+  mapurl: https://goo.gl/maps/JsxvVkoK5PBtzDBD6
+  address: 75005 Paris
+  imageurl: https://geo0.ggpht.com/maps/photothumb/fd/v1?bpb=ChAKDnNlYXJjaC5UQUNUSUxFEiAKEgndlykv4XHmRxEcEo5EG0pEOCoKDQAAAAAVAAAAABoGCPABEJgD&gl=US
+  description: Cute Street Closest metro - Saint-Michel Notre Dame or Cluny-La Sorbonn
   website: #
 
-- name: Maison Lallement 5
-  type: cafe
+- name: Rue Saint-Dominique
+  type: street
   mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
-  address: 37 Avenue Duquesne, 75007
-  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
-  description: 2 minutes from AirBnb
+  address: 64 Rue Saint-Dominique, 75007
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipO60Q31rznsr3ulnQ5UEWY-vwmktigw0NUz8BR2=w425-h240-k-no
+  description: Eiffel tower views and pastries and cheese shops Closest metro La Tour-Maubourg  - one block
   website: #
 
-- name: Maison Lallement 6
+- name: La Maison d'Isabelle
   type: cafe
-  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
-  address: 37 Avenue Duquesne, 75007
-  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
-  description: 2 minutes from AirBnb
+  mapurl: https://goo.gl/maps/kasUvSRLyxgf9f2j7
+  address: 47ter Boulevard Saint-Germain
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipMkI8l_6k7d4iNSbf7hQMjtI_yazeDi0SLdMMhC=w408-h306-k-no
+  description: Best crossiants in paris
   website: #
+
+- name: Saint-Michel Notre-Dame
+  type: church
+  mapurl: https://goo.gl/maps/zPRUpJyMjDB7kq9CA
+  address: Pont Saint-Michel, 75006
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipOiLcLm4FtlySLxQQbttZS9QR7fIrSVa1g7e9b4=w408-h369-k-no
+  description: Gorgeous and graceful Gothic gem almost in the shadow of Notre Dame
+  website: https://www.transilien.com/fr/gare/SAINT-MICHEL-NOTRE-DAME-8778543
+
+- name:
+  type:
+  mapurl:
+  address:
+  imageurl:
+  description:
+  website:
+
