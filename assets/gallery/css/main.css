@@ -842,7 +842,7 @@ input, select, textarea {
 		overflow-y: auto;
 		text-align: right;
 		visibility: visible;
-		z-index: 10000;
+		z-index: 2;
 		right: 0;
 	}
 
