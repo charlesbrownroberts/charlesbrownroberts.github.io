@@ -6,21 +6,21 @@
   description: 2 minutes from AirBnb
   website: #
 
-- name: Maison Lallement 2
-  type: cafe
-  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
-  address: 37 Avenue Duquesne, 75007
-  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
+- name: Arc de Triomphe
+  type: landmark
+  mapurl: https://goo.gl/maps/EbB51hWuggwfeeTx7
+  address: Place Charles de Gaulle, 75008
+  imageurl: https://lh5.googleusercontent.com/p/AF1QipONR1y8PXcH7YdfVg2J5QZX-z4qTZCFulYucUJY=w408-h269-k-no
   description: 2 minutes from AirBnb
-  website: #
+  website: http://www.paris-arc-de-triomphe.fr/
 
-- name: Maison Lallement 3
-  type: cafe
-  mapurl: https://goo.gl/maps/cmc1CyVLhy1AmJQAA
+- name: Louvre Pyramid
+  type: museum
+  mapurl: https://goo.gl/maps/aGs1HxHtaSU2DgXm9
   address: 37 Avenue Duquesne, 75007
-  imageurl: https://lh5.googleusercontent.com/p/AF1QipMMarzLrFvMOMz05EDWQs8alv1BdWFJExf0kbgL=w408-h272-k-no
+  imageurl: https://lh5.googleusercontent.com/proxy/XFJdlH1ukebkmYrUYXkQuhAcuJ7KcPbFzh_gVAdFSlHVSYySQSpVmlIUD7mcsGTgUeF4xOF7m-eEquUF_Fy_Wce8Lw_tMWVkHA8OcPIXg1h9BOJJyIqyGJLusvc65IqM4b8bbizYQnDlmx5td1gYoplDJO0rqA=w408-h272-k-no
   description: 2 minutes from AirBnb
-  website: #
+  website: https://www.louvre.fr/
 
 - name: Maison Lallement 4
   type: cafe
