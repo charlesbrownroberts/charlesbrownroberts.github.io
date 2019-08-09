@@ -64,6 +64,7 @@
         <hr/>
     </div>
     <div class="row">
+        <div class="card-group">
         {% for link in site.data.travel[page.category].links %}
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
@@ -72,13 +73,13 @@
                     <h5 class="card-header">{{ link.name }}</h5>
                     <img src="{{ link.imageurl }}" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text"><small>{{ link.type }}</small></p>
+                        <small>{{ link.type }}</small>
                         <p class="card-text">{{ link.description }}</p>
-                        <p class="card-text"><small>{{ link.address }}</small></p>
-                        <p class="text-center">
-                            <a href="{{ link.mapurl }}" class="btn btn-primary btn-light btn-sm" target="_blank">Map</a>
-                            <a href="{{ link.website }}" class="btn btn-primary btn-light btn-sm" target="_blank">Website</a>
-                        </p>
+                        <p class="card-text text-center text-small"><small class="text">{{ link.address }}</small></p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="{{ link.mapurl }}" class="btn btn-primary btn-light btn-sm" style="float:left;" target="_blank">Map</a>
+                        <a href="{{ link.website }}" class="btn btn-primary btn-light btn-sm" style="float:right;" target="_blank">Website</a>
                     </div>
                 </div>
 
@@ -86,5 +87,6 @@
             </div>
         </div>
         {% endfor %}
+        </div>
     </div>
 </div>
