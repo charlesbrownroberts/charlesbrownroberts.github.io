@@ -14,17 +14,17 @@
             <div class="card-header"><h2><span class="text-white text-center"> {{ page.title }}</span></h2></div>
             <div class="card-body">
                 <p class="card-text text-white">{{ page.lead }}</p>
-<!--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <!--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
             </div>
         </div>
 
-<!--        <div class="card bg-dark text-white">-->
-<!--            <img src="..." class="card-img" alt="...">-->
-<!--            <div class="card-img-overlay">-->
-<!--                <h2 class="card-title">{{ page.title }}</h2>-->
-<!--                <p class="card-text">{{ page.lead }}</p>-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="card bg-dark text-white">-->
+        <!--            <img src="..." class="card-img" alt="...">-->
+        <!--            <div class="card-img-overlay">-->
+        <!--                <h2 class="card-title">{{ page.title }}</h2>-->
+        <!--                <p class="card-text">{{ page.lead }}</p>-->
+        <!--            </div>-->
+        <!--        </div>-->
     </section>
 
     <!-- Mini Posts -->
@@ -33,29 +33,35 @@
 
             <!-- Mini Post -->
             <article class="mini-post">
-                <a class="weatherwidget-io" href="{{ page.weather_url }}" data-label_1="{{ page.category }}" data-label_2="WEATHER" data-theme="gray" >{{ page.category }} WEATHER</a>
-
-
+                <a class="weatherwidget-io" href="{{ page.weather_url }}" data-label_1="{{ page.category }}"
+                   data-label_2="WEATHER" data-theme="gray">{{ page.category }} WEATHER</a>
             </article>
 
             <!-- Mini Post -->
-            <article class="mini-post">
-                <header>
-                    <h3><a href="https://www.ratp.fr/en" target="_blank">Paris Metro</a></h3>
-                    <ul>
-                        <li>
-                            <a href="https://www.ratp.fr/en/plans-lignes/plan-metro" target="_blank" class="author">Metro Map</a>
-                        </li>
-                    </ul>
-                </header>
-            </article>
-
-
+            <div class="card text-white bg-secondary mb-3">
+                <div class="card-header">
+                    <h3><span class="text-white text-center">Quick Links</span></h3>
+                </div>
+                <ul class="list-group list-group-flush text-black-50">
+                    <li class="list-group-item">
+                        <a href="https://www.ratp.fr/en" target="_blank">Paris Metro</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.ratp.fr/en/plans-lignes/plan-metro" target="_blank">Metro Map</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.eurail.com" target="_blank">Eurail</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://goo.gl/maps/t5LSJA3MwZHMSUvf8" target="_blank">Closest Metro</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://goo.gl/maps/7aEEdNwMq5SAj3BX9" target="_blank">US Embassy</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
-
-
-
 
 
 </section>
