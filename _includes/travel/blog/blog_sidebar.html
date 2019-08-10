@@ -30,7 +30,6 @@
     <!-- Mini Posts -->
     <section>
         <div class="mini-posts">
-
             <!-- Mini Post -->
             <article class="mini-post">
                 <a class="weatherwidget-io" href="{{ page.weather_url }}" data-label_1="{{ page.category }}"
@@ -42,22 +41,13 @@
                 <div class="card-header">
                     <h3><span class="text-white text-center">Quick Links</span></h3>
                 </div>
+
                 <ul class="list-group list-group-flush text-black-50">
+                    {% for link in site.data.travel[page.category].quicklinks %}
                     <li class="list-group-item">
-                        <a href="https://www.ratp.fr/en" target="_blank">Paris Metro</a>
+                        <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
                     </li>
-                    <li class="list-group-item">
-                        <a href="https://www.ratp.fr/en/plans-lignes/plan-metro" target="_blank">Metro Map</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://www.eurail.com" target="_blank">Eurail</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://goo.gl/maps/t5LSJA3MwZHMSUvf8" target="_blank">Closest Metro</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://goo.gl/maps/7aEEdNwMq5SAj3BX9" target="_blank">US Embassy</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
