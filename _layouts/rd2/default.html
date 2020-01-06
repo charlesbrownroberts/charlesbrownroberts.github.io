@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/rd2/gallery.css">
+</head>
+<body>
+
+{{content}}
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src='/assets/rd2/gallery.js'></script>
+
+<script>
+
+    $('.container-gallery').gallery({
+        height: 650,
+        items: 18,
+        480: {
+            items: 2,
+            height: 400,
+            thmbHeight: 100
+        },
+        768: {
+
+            items: 3,
+            height: 500,
+            thmbHeight: 120
+        },
+        600: {
+
+            items: 4
+        },
+        992 : {
+
+            items: 5,
+            height: 350
+        }
+
+    });
+
+</script>
+</body>
+</html>
