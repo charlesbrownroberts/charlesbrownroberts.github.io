@@ -9,5 +9,5 @@ entries:
     output: web
     folderitems:
     - title: Angular Azure Pipeline
-      url: /azure/angular-azure-pipeline.html
+      url: /angular-azure-pipeline.html
       output: web
