@@ -1,7 +1,7 @@
 ---
 title: Symfony Azure Web App Tutorial
 keywords: azure, symfony, ci/cd, pipeline, devops, docker
-tags: [azure, ci/cd, symfony, devops, docker, tutorial]
+tags: [azure, ci_cd, symfony, devops, docker, tutorial]
 sidebar: azure_sidebar
 toc: false
 permalink: azure-symfony-web-app.html

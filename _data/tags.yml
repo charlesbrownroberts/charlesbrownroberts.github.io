@@ -17,6 +17,6 @@ allowed-tags:
   - azure
   - symfony
   - angular
-  - ci/cd
+  - ci_cd
   - docker
   - tutorial
