@@ -5,7 +5,7 @@ tags: [azure, ci_cd, angular, devops, tutorial]
 sidebar: azure_sidebar
 toc: false
 permalink: azure-angular-devops-pipeline.html
-folder: azure/tutorials
+folder: azure
 ---
 
 # Angular Azure DevOps Pipeline Tutorial
