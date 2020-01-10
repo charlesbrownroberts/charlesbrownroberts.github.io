@@ -8,6 +8,9 @@ entries:
   - title: Tutorials
     output: web
     folderitems:
-    - title: Angular Azure Pipeline
-      url: /angular-azure-pipeline.html
+    - title: Angular Azure DevOps Pipeline Tutorial
+      url: /azure-angular-devops-pipeline.html
+      output: web
+    - title: Symfony Azure Web App Tutorial
+      url: /azure-symfony-web-app.html
       output: web
